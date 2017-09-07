@@ -23,7 +23,7 @@ function onError(xhr, status, errorThrown) {
 
  $.ajax({
    method: 'GET',
-   url: 'http://localhost:3500/api/taquerias',
+   url: '//localhost:3500/api/taquerias',
    success: handleSuccessTaco,
    error: handleErrorTaco
  })
