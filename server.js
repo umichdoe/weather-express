@@ -37,19 +37,6 @@ var albums = [
     }
   ];
 
-app.get('/api/taquerias',function(req, res){
-  res.json(taquerias);
-})
-
-var taquerias = [
-      { name: "La Taqueria" },
-      { name: "El Farolito" },
-      { name: "Taqueria Cancun" }
-    ];  
-
-
-
-
 //connects to local host or production port
 app.listen(process.env.PORT || 3500, function() {
   console.log('Listening on port 3500');
