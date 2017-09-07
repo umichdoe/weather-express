@@ -5,7 +5,7 @@ $(document).ready(function(){
   var apiKey = 'a6bb13ce7334f8d9eea9862a313100d0';
   $.ajax({
     method: 'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?zip=94597,us&units=imperial&appid=${apiKey}`,
+    url: `//api.openweathermap.org/data/2.5/weather?zip=94597,us&units=imperial&appid=${apiKey}`,
     success: onSuccess,
     error: onError,
   })
