@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/SF-WDI-LABS/express-intro#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.18.2"
   }
 }
